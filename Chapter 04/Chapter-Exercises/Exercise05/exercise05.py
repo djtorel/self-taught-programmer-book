@@ -5,9 +5,14 @@ Use exception handling to catch the exception that could occur.
 
 
 def to_float(x):
+    """
+    Prints x as a float.
+    :param x: int or string.
+    :return: print of float x
+    """
     try:
         print(float(x))
-    except(ValueError):
+    except ValueError:
         print("Invalid value entered.")
 
 

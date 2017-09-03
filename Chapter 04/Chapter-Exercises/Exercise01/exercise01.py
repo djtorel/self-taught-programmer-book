@@ -4,6 +4,11 @@ Write a function that takes a number as an input and returns that number squared
 
 
 def squared(x):
+    """
+    Returns x * x (x squared)
+    :param x: int
+    :return: x squared
+    """
     return x * x
 
 

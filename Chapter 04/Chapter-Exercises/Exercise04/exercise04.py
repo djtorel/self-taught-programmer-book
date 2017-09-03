@@ -8,10 +8,20 @@ and pass it as a parameter to the second function.
 
 
 def half(x):
+    """
+    Returns x / 2.
+    :param x: int.
+    :return: float result of x / 2
+    """
     return x / 2
 
 
 def multiply(x):
+    """
+    Returns x * 4.
+    :param x: int.
+    :return: int product of x and 4
+    """
     return x * 4
 
 
